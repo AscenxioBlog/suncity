@@ -5,19 +5,24 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+// import 'swiper/css/ Autoplay';
 
 // import './styles.css';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import {  Autoplay,Pagination } from 'swiper/modules';
 function Homeslider() {
   return (
-    <div className=' h-[300px] w-[90%] bg-orange-950'>
+    <div className=' h-[250px] w-[90%] bg-orange-950'>
              <Swiper
         slidesPerView={1}
         spaceBetween={10}
         pagination={{
           clickable: true,
+        }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
         }}
         breakpoints={{
             640: {
@@ -33,7 +38,7 @@ function Homeslider() {
               spaceBetween: 50,
             },
           }}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>Slide 1</SwiperSlide>
