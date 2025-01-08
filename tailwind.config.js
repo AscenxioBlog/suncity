@@ -14,7 +14,9 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 
   // Add custom utilities using Tailwind's @layer
   safelist: [],
