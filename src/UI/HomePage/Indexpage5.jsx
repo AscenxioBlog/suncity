@@ -4,9 +4,9 @@ import Homeslider from './Homeslider'
 function Indexpage5() {
   return (
     <div>
-      <div className=" min-h-[400px] w-full bg-orange-400 grid grid-cols-1 lg:grid-cols-[35%,65%]">
-        <div className="h-[400px] bg-purple-400 flex justify-center items-center">
-          <div className=" h-[300px] w-[80%] bg-lime-200 space-y-3">
+      <div className=" min-h-[400px] w-full bg-[] grid grid-cols-1 lg:grid-cols-[35%,65%]">
+        <div className="h-[400px] bg-[] flex justify-center items-center">
+          <div className=" h-[300px] w-[80%] bg-[] space-y-3">
             <div className=" text-[2.5rem] font-bold">
               <h1>Our Power Energy</h1>
               <h1>Product Category</h1>
@@ -20,7 +20,7 @@ function Indexpage5() {
             </button>
           </div>
         </div>
-        <div className="h-[400px] bg-green-950 flex justify-center items-center">
+        <div className="h-[400px] bg-[] flex justify-center items-center">
           <Homeslider/>
         </div>
       </div>

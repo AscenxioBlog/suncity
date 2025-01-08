@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import IndexComponent from './UI/HomePage/IndexComponent'
 import Header from './GeneralComponent/Header'
+import PageProgress from './GeneralComponent/PageProgress'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path='/' element={<IndexComponent/>}/>
         </Routes>
+        <PageProgress/>
       </BrowserRouter>
     </div>
   )
