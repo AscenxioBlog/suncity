@@ -37,8 +37,8 @@ function Header() {
             </div>
             <div className="h-[60px] lg:h-[80px] bg-[] hidden lg:inline-block  "> 
                <div className=" h-[60px] lg:h-[80px] flex items-center gap-[70px] w-full justify-center font-semibold    ">
-               <Link>HOME</Link>
-                <Link>SHOP</Link>
+               <Link to='/'>HOME</Link>
+                <Link to='/shop' >SHOP</Link>
                 <Link>ABOUT US</Link>
                 <Link>CONTACT</Link>
                </div>

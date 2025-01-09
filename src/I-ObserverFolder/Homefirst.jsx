@@ -25,12 +25,12 @@ function Homefirst() {
   return (
     <div>
           <div
-      ref={sectionRef}
-      className={ ` transform transition-[2s] duration-[2s] ease-in-out ${
-        isVisible ? "opacity-100 skew-y-0" : " opacity-0 skew-y-[25deg]"
-      }`}
+      
     >
-      <h1 className=' text-[1.4rem] lg:text-[2.6rem] font-bold  lg:flex lg:flex-col '><span>We believe solar</span>  <span>power</span> <span>should be accessibles</span></h1>
+      <h1 ref={sectionRef}
+      className={ ` transform transition-[1s] duration-[1s] ease-in-out  text-[1.4rem] lg:text-[2.6rem] font-bold  lg:flex lg:flex-col ${
+        isVisible ? "opacity-100 translate-y-0" : " opacity-0 translate-y-[40px]"
+      }`}><span>We believe solar</span>  <span>power</span> <span>should be accessibles</span></h1>
 
     </div>
     </div>
