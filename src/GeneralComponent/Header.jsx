@@ -10,18 +10,18 @@ import { HiOutlineShoppingCart } from "react-icons/hi";
 
 function Header() {
   return (
-    <div className='  w-full '>
-        <section className=' hidden lg:inline-block w-full'>
+    <div className='w-full '>
+        <section className='hidden w-full lg:inline-block'>
             <div className="  h-[50px] w-full bg-deepgreen flex justify-between text-white font-normal pl-7 pr-7">
-            <section className=" flex  space-x-8 items-center">
-                <span className=' flex items-center'><FiClock  className=' mr-2'/> Mon-Fri 8:00-18:00 / Sunday 8:00-14:00</span>  
+            <section className="flex items-center space-x-8 ">
+                <span className='flex items-center '><FiClock  className='mr-2 '/> Mon-Fri 8:00-18:00 / Sunday 8:00-14:00</span>  
 
-                <span className=' flex items-center '><MdMailOutline  className=' mr-2' />suncityMart@gmail.com</span>
+                <span className='flex items-center '><MdMailOutline  className='mr-2 ' />suncityMart@gmail.com</span>
             </section>
 
-            <section className=' flex items-center'>
+            <section className='flex items-center '>
                 <span>visit us:</span>
-                <span className=' flex items-center space-x-3 ml-2'>
+                <span className='flex items-center ml-2 space-x-3 '>
                     <FaFacebookF />
                     <FaTwitter />
                     <FaInstagram />
@@ -40,7 +40,7 @@ function Header() {
                <Link to='/'>HOME</Link>
                 <Link to='/shop' >SHOP</Link>
                 <Link>ABOUT US</Link>
-                <Link>CONTACT</Link>
+                <Link to='/contact'>CONTACT</Link>
                </div>
             </div>
 
