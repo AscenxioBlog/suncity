@@ -93,3 +93,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+.main-background{
+  background-image: url('https://html.themewant.com/solari/assets/images/banner/breadcrumb/01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image{
+  background-image: url('https://html.themewant.com/solari/assets/images/footer/03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image2{
+  background-image: url('https://html.themewant.com/solari/assets/images/footer/04.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image3{
+  background-image: url('https://html.themewant.com/solari/assets/images/footer/05.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image4{
+  background-image: url('https://html.themewant.com/solari/assets/images/footer/06.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

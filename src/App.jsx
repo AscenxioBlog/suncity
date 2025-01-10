@@ -5,7 +5,7 @@ import Header from './GeneralComponent/Header'
 import PageProgress from './GeneralComponent/PageProgress'
 import Footer from './GeneralComponent/Footer'
 import ShopPage from './UI/ShopPage/ShopPage'
-
+import Contact1 from './UI/ContactPage/Contact1'
 function App() {
   return (
     <div>
@@ -14,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/' element={<IndexComponent/>}/>
           <Route path='/shop' element={<ShopPage/>}/>
+          <Route path='/contact' element={<Contact1/>} />
         </Routes>
         <PageProgress/>
         <Footer/>
