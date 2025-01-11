@@ -1,0 +1,7 @@
+.first{
+    transition: 5s;
+}
+.first:hover{
+    left: -180px;
+    transition: 5s;
+}

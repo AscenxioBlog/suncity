@@ -15,7 +15,7 @@ function Index4() {
             </div>
         </div>
         <div className=" mt-[50px]  lg:pt-[100px]">
-        <div className=" h-[500px] lg:h-[600px] bg-[] w-[90%] pl-8 md:pl-[60px] lg:pl-3">
+        <div className=" min-h-[500px] lg:min-h-[600px] bg-[] w-[90%] pl-8 md:pl-[60px] lg:pl-3">
             <h1 className="relative uppercase font-semibold text-deepgreen flex items-center">
                 <span className="absolute before:content-['']  before:block before:h-[7px] before:w-[48px] before:bg-[url(assets/before.png)] before:bg-cover"></span>
                 <span className=' ml-[60px]'>About Us</span>

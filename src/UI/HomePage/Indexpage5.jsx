@@ -5,8 +5,8 @@ function Indexpage5() {
   return (
     <div>
       <div className=" min-h-[400px] w-full bg-[] grid grid-cols-1 lg:grid-cols-[35%,65%]">
-        <div className="h-[400px] bg-[] flex justify-center items-center">
-          <div className=" h-[300px] w-[80%] bg-[] space-y-3">
+        <div className="min-h-[400px] bg-[] flex justify-center items-center">
+          <div className=" min-h-[300px] w-[80%] bg-[] space-y-3">
             <div className=" text-[2.5rem] font-bold">
               <h1>Our Power Energy</h1>
               <h1>Product Category</h1>
