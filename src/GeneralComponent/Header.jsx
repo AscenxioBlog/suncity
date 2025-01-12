@@ -39,7 +39,7 @@ function Header() {
                <div className=" h-[60px] lg:h-[80px] flex items-center gap-[70px] w-full justify-center font-semibold    ">
                <Link to='/'>HOME</Link>
                 <Link to='/shop' >SHOP</Link>
-                <Link>ABOUT US</Link>
+                <Link to='/about'>ABOUT US</Link>
                 <Link to='/contact'>CONTACT</Link>
                </div>
             </div>
