@@ -17,24 +17,24 @@ function PageProgress() {
   }, []);
   return (
     <div>
-     <div className="fixed bottom-5 right-5 w-40 h-16 flex items-center justify-center z-50">
+     <div className="fixed  bottom-[70px] right-0 w-30 h-16 flex items-center justify-end z-50">
       <svg className="w-full h-full transform -rotate-90" viewBox="0 0 60 60">
         <circle
           cx="30"
-          cy="30"
-          r="25"
+          cy="35"
+          r="20"
           fill="none"
           stroke="gray"
-          strokeWidth="8"
+          strokeWidth="5"
           className="text-gray-300"
         />
         <circle
           cx="30"
-          cy="30"
-          r="25"
+          cy="35"
+          r="20"
           fill="none"
           stroke="#4caf50"
-          strokeWidth="8"
+          strokeWidth="5"
           strokeLinecap="round"
           className="transition-all duration-300"
           style={{
@@ -43,7 +43,7 @@ function PageProgress() {
           }}
         />
       </svg>
-      <div className="absolute text-sm font-bold text-green-600">
+      <div className="absolute mr-3  text-sm font-bold text-green-600">
         {Math.round(scrollPercentage)}%
       </div>
     </div>
