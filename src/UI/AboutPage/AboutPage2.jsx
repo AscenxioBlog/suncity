@@ -4,7 +4,7 @@ import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 
 function AboutPage2() {
   return (
-    <div>
+    <div className='overflow-x-hidden '>
       
       <div className='grid grid-cols-1 bg-white lg:grid-cols-2 h-[1460px] md:h-[1750px]  lg:h-[675px] gap-[20px] lg:gap-0'>
 
