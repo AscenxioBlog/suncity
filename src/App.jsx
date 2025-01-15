@@ -6,10 +6,12 @@ import PageProgress from './GeneralComponent/PageProgress'
 import Footer from './GeneralComponent/Footer'
 import ShopPage from './UI/ShopPage/ShopPage'
 import Contact1 from './UI/ContactPage/Contact1'
+import ContextApp from './GeneralComponent/ContextApp'
 function App() {
   return (
     <div>
-      <BrowserRouter>
+     <ContextApp>
+     <BrowserRouter>
       <Header/>
         <Routes>
           <Route path='/' element={<IndexComponent/>}/>
@@ -19,6 +21,7 @@ function App() {
         <PageProgress/>
         <Footer/>
       </BrowserRouter>
+     </ContextApp>
     </div>
   )
 }

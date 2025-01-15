@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { FiClock } from "react-icons/fi";
 import { MdMailOutline } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";
@@ -7,8 +7,11 @@ import { FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { CiMenuBurger } from "react-icons/ci";
 import { HiOutlineShoppingCart } from "react-icons/hi";
+import Cart from '../UI/CartFolder/Cart';
+import { AppContext } from './ContextApp';
 
 function Header() {
+    const {toggleCart,totalItems} = useContext(AppContext)
   return (
     <div className='w-full '>
         <section className='hidden w-full lg:inline-block'>
@@ -47,8 +50,9 @@ function Header() {
 
             <div className=" bg-[] flex justify-end pr-[50px] items-center gap-10 text-[1.5rem] text-deepgreen ">
                 <span><CiMenuBurger /></span>
-                <span><HiOutlineShoppingCart /></span>
+                <button onClick={toggleCart} className='  relative' ><HiOutlineShoppingCart /> <span className=' text-[13px] absolute bottom-0 right-[-10px]'>({totalItems})</span></button>
             </div>
+            <Cart/>
 
         </section>
     </div>
