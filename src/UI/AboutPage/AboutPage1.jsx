@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutPage2 from './AboutPage2'
 
 function AboutPage1() {
   return (
@@ -8,6 +9,8 @@ function AboutPage1() {
             <p className='text-white text-[50px] md:text-[55px] lg:text-[60px] font-bold '>About Us</p>
             <p className='text-white text-[16px] font-bold tracking-wider'>HOME / ABOUT US</p>
         </div>
+
+        <AboutPage2/>
 
     </div>
   )
