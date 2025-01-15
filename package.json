@@ -10,11 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+=======
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+>>>>>>> da51cf6991c43a32bf0d4fe97e6c623b76aaed96
     "aos": "^2.3.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

@@ -17,7 +17,7 @@ function IndexComponent() {
         <Index3/>
         <Index4/>
         <Indexpage5/>
-        <div className=" h-[350px] w-[50px]  fixed right-0 top-[150px] z-50">
+        <div className=" h-[350px] w-[50px]  fixed right-0 top-[150px] z-50 hidden lg:inline-block">
           <div className=" h-[350px] w-full transition-all">
             <div className=" h-[120px] w-full bg-red-500 relative">
               <div className=" h-[50px] w-[120px] bg-lightgreen hover:bg-deepgreen rotate-[90deg] translate-x-[-35px] translate-y-[35px] flex justify-center items-center font-bold gap-2">
