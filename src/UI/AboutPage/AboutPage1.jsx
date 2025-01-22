@@ -1,5 +1,7 @@
 import React from 'react'
 import AboutPage2 from './AboutPage2'
+import Aboutpage3 from './Aboutpage3'
+import AboutPage4 from './AboutPage4'
 
 function AboutPage1() {
   return (
@@ -11,6 +13,8 @@ function AboutPage1() {
         </div>
 
         <AboutPage2/>
+        <Aboutpage3/>
+        <AboutPage4/>
 
     </div>
   )
