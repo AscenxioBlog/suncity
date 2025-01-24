@@ -6,11 +6,12 @@ import PageProgress from './GeneralComponent/PageProgress'
 import Footer from './GeneralComponent/Footer'
 import ShopPage from './UI/ShopPage/ShopPage'
 import Contact1 from './UI/ContactPage/Contact1'
-<<<<<<< HEAD
+
 import ContextApp from './GeneralComponent/ContextApp'
-=======
+
 import AboutPage1 from './UI/AboutPage/AboutPage1'
->>>>>>> da51cf6991c43a32bf0d4fe97e6c623b76aaed96
+import Checkout from './UI/CheckoutPage/Checkout'
+
 function App() {
   return (
     <div>
@@ -20,8 +21,9 @@ function App() {
         <Routes>
           <Route path='/' element={<IndexComponent/>}/>
           <Route path='/shop' element={<ShopPage/>}/>
-          <Route path='/contact' element={<Contact1/>} />
+          <Route path='/contact' element={<Contact1/>}/>
           <Route path='/about' element={<AboutPage1/>}/>
+          <Route path='/checkout' element={<Checkout/>}/>
         </Routes>
         <PageProgress/>
         <Footer/>
