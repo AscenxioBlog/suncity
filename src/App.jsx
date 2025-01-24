@@ -8,13 +8,10 @@ import ShopPage from './UI/ShopPage/ShopPage'
 import Contact1 from './UI/ContactPage/Contact1'
 
 import ContextApp from './GeneralComponent/ContextApp'
-<<<<<<< HEAD
 
-import AboutPage1 from './UI/AboutPage/AboutPage1'
+// import AboutPage1 from './UI/AboutPage/AboutPage1'
 import Checkout from './UI/CheckoutPage/Checkout'
-=======
 import AboutPage1 from './UI/AboutPage/AboutPage1'
->>>>>>> 0690c48c570d52d8f7b7bfff6cdde1c6ddccbc6a
 
 function App() {
   return (
