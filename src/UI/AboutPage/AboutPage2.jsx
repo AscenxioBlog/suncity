@@ -4,7 +4,7 @@ import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 
 function AboutPage2() {
   return (
-    <div>
+    <div className='overflow-x-hidden mb-[60px] md:mb-[100px]'>
       
       <div className='grid grid-cols-1 bg-white lg:grid-cols-2 h-[1460px] md:h-[1750px]  lg:h-[675px] gap-[20px] lg:gap-0'>
 
@@ -30,36 +30,36 @@ function AboutPage2() {
             </div>
             
             
-            <div className='h-[334px] md:h-[325px] lg:h-fit bg-green-600 grid grid-cols-1 lg:grid-cols-2'>
+            <div className='h-[334px] md:h-[325px] lg:h-fit bg-white grid grid-cols-1 lg:grid-cols-2'>
               
               <div className='  bg-white px-[20px] lg:px-[0px] h-fit'>
                 <img src="https://html.themewant.com/solari/assets/images/about/21.jpg" className='h-[200px] md:h-[350px] lg:h-[160px]' />
               </div>
               
               <div className='bg-white h-fit'>
-                <ol className='leading-[40px]'>
+                <ol className='leading-[40px] ml-[10px]'>
                   <li>
                     <img src="https://html.themewant.com/solari/assets/images/about/dt.png" className='inline-block'/>
                     <p className='inline-block ml-[10px]'>Experienced Team of Experts</p>
                   </li>
                   <li>
                     <img src="https://html.themewant.com/solari/assets/images/about/dt.png" className='inline-block'/>
-                    <p className='inline-block ml-[10px]'>Experienced Team of Experts</p>
+                    <p className='inline-block ml-[10px]'>Very first Customers Service</p>
                   </li>
                   <li>
                     <img src="https://html.themewant.com/solari/assets/images/about/dt.png" className='inline-block'/>
-                    <p className='inline-block ml-[10px]'>Experienced Team of Experts</p>
+                    <p className='inline-block ml-[10px]'>Flexiblity Work Environment</p>
                   </li>
                   <li>
                     <img src="https://html.themewant.com/solari/assets/images/about/dt.png" className='inline-block'/>
-                    <p className='inline-block ml-[10px]'>Experienced Team of Experts</p>
+                    <p className='inline-block ml-[10px]'>Provide Quality Service</p>
                   </li>
                  
                 </ol>
               </div>
             </div>
             
-            <div className='grid grid-cols-2 bg-red-500 h-[100px] mt-[70px] md:mt-[250px] lg:mt-[45px]'>
+            <div className='grid grid-cols-2 bg-white h-[100px] mt-[70px] md:mt-[250px] lg:mt-[45px]'>
               
               <div className='bg-white'>
               <button className=' flex h-[55px] w-[180px] ml-[15px] md:ml-[70px] rounded-[25px] text-white font-semibold space-x-2 bg-deepgreen overflow-hidden relative group justify-center items-center mt-4'>Read More
@@ -68,8 +68,10 @@ function AboutPage2() {
             </button>
               </div>
               
-              <div className='bg-slate-600'>
-              <FontAwesomeIcon icon={faCirclePlay} />
+              <div className='bg-white'>
+              <FontAwesomeIcon icon={faCirclePlay} className='text-deepgreen h-[55px] mt-[15px] ml-[5px] inline-block' />
+              <div className='bg-deepgreen h-[2px] w-[50px] ml-[25px] mb-[20px] hidden md:inline-block '></div>
+              <p className='relative hidden md:inline-block bottom-[15px] left-[10px]'>Play Video</p>
               
               </div>
             </div>

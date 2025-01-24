@@ -1,9 +1,11 @@
 import React from 'react'
 import AboutPage2 from './AboutPage2'
+import Aboutpage3 from './Aboutpage3'
+import AboutPage4 from './AboutPage4'
 
 function AboutPage1() {
   return (
-    <div>
+    <div className='overflow-x-hidden '>
       
       <div className='bg-blue-500 h-[330px] md:h-[540px] lg:h-[500px] flex justify-center items-center flex-col main-background mb-[70px] md:mb-[80px] lg:mb-[110px]'>
             <p className='text-white text-[50px] md:text-[55px] lg:text-[60px] font-bold '>About Us</p>
@@ -11,6 +13,8 @@ function AboutPage1() {
         </div>
 
         <AboutPage2/>
+        <Aboutpage3/>
+        <AboutPage4/>
 
     </div>
   )

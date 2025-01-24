@@ -126,3 +126,7 @@
   background-size: cover;
   background-position: center;
 }
+
+.clip{
+  clip-path: polygon(100% 0, 100% 75%, 49% 100%, 0 75%, 0 0);
+}
