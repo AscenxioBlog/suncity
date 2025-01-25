@@ -3,6 +3,7 @@ import { BiSolidMessageAlt } from "react-icons/bi";
 import { Link } from 'react-router-dom';
 import paypal from '../../assets/Paypal.png'
 import { AppContext } from '../../GeneralComponent/ContextApp';
+import { TbCurrencyNaira } from "react-icons/tb";
 
 
 function Checkout2() {
@@ -43,7 +44,7 @@ function Checkout2() {
 
 
         <div className=" w-full flex justify-center ">
-        <div className=" min-h-[500px] w-[90%] bg-purple-400 grid grid-cols-1 md:grid-cols-[69%,30%] gap-1">
+        <div className=" min-h-[500px] w-[90%]  grid grid-cols-1 md:grid-cols-[68%,30%] gap-3">
             <div className=" bg-[#F6F6F6]   mb-[100px]">
                 <div className=" h-[80px] w-full text-[25px] font-bold">
                     <h1>Billing details</h1>
@@ -151,7 +152,7 @@ function Checkout2() {
                                     <input
                                     type="text"
                                     name={`itemPrice_${index}`}
-                                    defaultValue={`$${(item.price * item.quantity).toFixed(2)}`}
+                                    defaultValue={`N${(item.price * item.quantity).toFixed(2)}`}
                                     className="bg-transparent border-none focus:outline-none"
                                     readOnly
                                     />
@@ -171,7 +172,7 @@ function Checkout2() {
                                 <span>TOTAL</span>
                             </div>
                             <div className="  border-l-[2px] border-[gray] flex items-center pl-3 font-medium">
-                                <span>${calculateTotal().toFixed(2)}</span>
+                                <span className=' flex items-center'><TbCurrencyNaira />{calculateTotal().toFixed(2)}</span>
                             </div>
                         </div>
                  
@@ -202,7 +203,35 @@ function Checkout2() {
 
                 </form>
             </div>
-            <div className=" bg-slate-600"></div>
+            <div className=" ">
+                <div className=" h-[80px] w-full  text-[25px] font-bold flex items-center">
+                    <span>Your Order</span>
+                </div>
+
+                {
+                    cart.map((item)=>(
+                        <div id={item.id} className=" h-[100px] mb-1 w-full  grid grid-cols-[32%,67%] gap-1">
+                    <div className="h-[100px] ">
+                        <img src={item.image} className=' h-[100%] w-[100%]' alt="" />
+                    </div>
+                    <div className="h-[100px] ">
+                            <div className=" h-[50px] w-full  font-bold">
+                            <span>{item.name}</span> × <span>{item.quantity}</span>
+                            </div>
+                            <div className=" h-[50px] w-full  text-deepgreen">
+                                <span className=' flex items-center'><TbCurrencyNaira />{item.price}</span>
+                            </div>
+                    </div>
+                </div>
+                    ))
+                }
+
+
+                <div className=" h-[50px] w-full border-b-[2px] border-[gray] flex justify-between items-center font-bold text-[gray]">
+                    <span>TOTAL</span>
+                <span className=' flex items-center'><TbCurrencyNaira />{calculateTotal().toFixed(2)}</span>
+                </div>
+            </div>
         </div>
         </div>
       

@@ -17,7 +17,7 @@ function PageProgress() {
   }, []);
   return (
     <div>
-     <div className="fixed  bottom-[70px] right-0 w-30 h-16 flex items-center justify-end z-50">
+     <div className="fixed  bottom-[20px] right-0 w-30 h-16 flex items-center justify-end z-50">
       <svg className="w-full h-full transform -rotate-90" viewBox="0 0 60 60">
         <circle
           cx="30"

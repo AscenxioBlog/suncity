@@ -12,6 +12,7 @@ import ContextApp from './GeneralComponent/ContextApp'
 // import AboutPage1 from './UI/AboutPage/AboutPage1'
 import Checkout from './UI/CheckoutPage/Checkout'
 import AboutPage1 from './UI/AboutPage/AboutPage1'
+import MiniHeader from './GeneralComponent/MiniHeader'
 // import SplashCursor from './SplashCursor'
 
 
@@ -30,10 +31,16 @@ function App() {
           <Route path='/about' element={<AboutPage1/>}/>
           <Route path='/checkout' element={<Checkout/>}/>
         </Routes>
+        <MiniHeader/>
         <PageProgress/>
         <Footer/>
+
+        
       </BrowserRouter>
      </ContextApp>
+
+
+     
     </div>
   )
 }
