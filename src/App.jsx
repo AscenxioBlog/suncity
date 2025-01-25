@@ -12,6 +12,8 @@ import ContextApp from './GeneralComponent/ContextApp'
 // import AboutPage1 from './UI/AboutPage/AboutPage1'
 import Checkout from './UI/CheckoutPage/Checkout'
 import AboutPage1 from './UI/AboutPage/AboutPage1'
+// import SplashCursor from './SplashCursor'
+
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
      <ContextApp>
      <BrowserRouter>
       <Header/>
+{/* <SplashCursor /> */}
+
         <Routes>
           <Route path='/' element={<IndexComponent/>}/>
           <Route path='/shop' element={<ShopPage/>}/>
