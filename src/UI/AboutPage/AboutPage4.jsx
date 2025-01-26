@@ -5,7 +5,7 @@ function AboutPage4() {
   return (
     <div>
       
-      <div className='bg-[rgb(243,243,243)]  h-[350px] md:h-[500px] lg:h-[230px] grid grid-cols-1 lg:grid-cols-2 gap-[25px] px-[8px] md:px-[65px] lg:px-[112px]'>
+      <div className='bg-[rgb(243,243,243)]  h-[350px] md:h-[500px] lg:h-[230px] grid grid-cols-1 lg:grid-cols-2 gap-[25px] px-[8px] md:px-[65px] lg:px-[112px] mb-[70px]'>
 
         <div className='bg-[rgb(23,22,27)] rounded-[15px] md:rounded-[8px] grid grid-cols-[33%,67%] md:grid-cols-[28%,72%]'>
           <div className='grid place-items-center'>
