@@ -66,6 +66,16 @@ function ContextApp({ children }) {
   // Calculate total number of items in the cart
   const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
 
+
+  let [viewMiniHeader,setMiniHeader]=useState('none')
+  window.onscroll = ()=>{
+    if (window.scrollY > 200  ) {
+      setMiniHeader('block')
+    } else {
+      setMiniHeader('none')
+    }
+  }
+
   return (
     <AppContext.Provider
       value={{
@@ -78,6 +88,7 @@ function ContextApp({ children }) {
         removeFromCart,
         calculateTotal,
         totalItems, // Add this to context
+        viewMiniHeader
       }}
     >
       {children}

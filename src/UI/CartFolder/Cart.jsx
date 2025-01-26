@@ -211,8 +211,8 @@ function Cart() {
                   </p>
                   <div className="mt-6">
                     <a
-                      href="#"
-                      className="flex items-center justify-center rounded-md border bg-indigo-600 px-6 py-3 text-base font-medium text-white hover:bg-indigo-700"
+                      href="/checkout"
+                      className="flex items-center justify-center rounded-md border bg-deepgreen px-6 py-3 text-base font-medium text-white hover:bg-indigo-700"
                     >
                       Checkout
                     </a>
@@ -220,7 +220,7 @@ function Cart() {
                   <div className="mt-6 flex justify-center text-sm text-gray-500">
                     <button
                       onClick={toggleCart}
-                      className="font-medium text-indigo-600 hover:text-indigo-700"
+                      className="font-medium text-deepgreen hover:text-indigo-700"
                     >
                       Continue Shopping &rarr;
                     </button>
