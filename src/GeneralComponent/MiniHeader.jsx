@@ -28,25 +28,31 @@ function MiniHeader() {
             </Link>
 
 
-            <div className=" h-[60px] w-[250px] bg-lightgreen absolute top-[186px] hover:ml-[-184px] duration-200 transition-[1s] flex gap-2">
+           <Link to='/shop'>
+           <div className=" h-[60px] w-[250px] bg-lightgreen absolute top-[186px] hover:ml-[-184px] duration-200 transition-[1s] flex gap-2">
               <div className=" w-[50px] h-[60px] bg-deepgreen flex justify-center items-center text-[35px]"><FaShopify /></div>
               <div className=" h-[60px] flex justify-center items-center font-semibold ">SHOP</div>
 
             </div>
+           </Link>
 
 
+            <Link to='/about'>
             <div className=" h-[60px] w-[250px] bg-lightgreen absolute top-[248px] hover:ml-[-184px] duration-200 transition-[1s] flex gap-2">
               <div className=" w-[50px] h-[60px] bg-deepgreen flex justify-center items-center text-[35px]"><FcAbout /></div>
               <div className=" h-[60px] flex justify-center items-center font-semibold ">ABOUT</div>
 
             </div>
+            </Link>
 
 
-            <div className=" h-[60px] w-[250px] bg-lightgreen absolute top-[310px] hover:ml-[-184px] duration-200 transition-[1s] flex gap-2">
+           <Link to='contact'>
+           <div className=" h-[60px] w-[250px] bg-lightgreen absolute top-[310px] hover:ml-[-184px] duration-200 transition-[1s] flex gap-2">
               <div className=" w-[50px] h-[60px] bg-deepgreen flex justify-center items-center text-[35px]"><IoIosContacts /></div>
-              <div className=" h-[60px] flex justify-center items-center font-semibold ">CONTACT</div>
+              <div className=" h-[60px] flex justify-center items-center font-semibold ">CONTACT US</div>
 
             </div>
+           </Link>
           </div>
         </div>
     </div>
