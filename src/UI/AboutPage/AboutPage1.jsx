@@ -3,6 +3,7 @@ import AboutPage2 from './AboutPage2'
 import Aboutpage3 from './Aboutpage3'
 import AboutPage4 from './AboutPage4'
 import AboutPage5 from './AboutPage5'
+import AboutPage6 from './AboutPage6'
 
 function AboutPage1() {
   return (
@@ -17,6 +18,7 @@ function AboutPage1() {
         <Aboutpage3/>
         <AboutPage4/>
         <AboutPage5/>
+        <AboutPage6/>
 
     </div>
   )

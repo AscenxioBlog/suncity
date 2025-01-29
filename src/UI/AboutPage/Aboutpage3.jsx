@@ -15,9 +15,9 @@ function Aboutpage3() {
         <p className='text-[27px] md:text-[50px] font-bold mt-[10px] md:mt-[30px]'>Easy Quick Following Steps</p>
         </div>
 
-        <div className=' bg-red-500 h-[1900px] md:h-[910px] lg:h-[460px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-x-[23px] px-[10px] md:px-[60px] relative '>
+        <div className='  h-[1900px] md:h-[910px] lg:h-[460px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-x-[23px] px-[10px] md:px-[60px] relative '>
 
-          <div className='relative grid grid-cols-1 bg-yellow-300'>
+          <div className='relative grid grid-cols-1'>
 
                 <div className='relative flex flex-col items-center justify-center h-[400px] bg-white group clip '>
 
@@ -35,7 +35,7 @@ function Aboutpage3() {
 
           </div>
 
-          <div className='relative grid grid-cols-1 bg-yellow-300'>
+          <div className='relative grid grid-cols-1 '>
 
               <div className='relative flex flex-col items-center justify-center h-[400px] md:mt-[50px] bg-white group clip'>
 
@@ -54,7 +54,7 @@ function Aboutpage3() {
             
           </div>
 
-          <div className='relative grid grid-cols-1 bg-yellow-300'>
+          <div className='relative grid grid-cols-1 '>
 
               <div className='relative flex flex-col items-center justify-center h-[400px] bg-white group clip '>
 
@@ -73,7 +73,7 @@ function Aboutpage3() {
                 
           </div>
 
-          <div className='relative grid grid-cols-1 bg-yellow-300'>
+          <div className='relative grid grid-cols-1 '>
 
             <div className='relative flex flex-col items-center justify-center h-[400px] md:mt-[50px] bg-white group clip'>
 
