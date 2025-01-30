@@ -13,6 +13,7 @@ import ContextApp from './GeneralComponent/ContextApp'
 import Checkout from './UI/CheckoutPage/Checkout'
 import AboutPage1 from './UI/AboutPage/AboutPage1'
 import MiniHeader from './GeneralComponent/MiniHeader'
+import FaqsComponent from './UI/Faqs/FaqsComponent'
 // import SplashCursor from './SplashCursor'
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route path='/contact' element={<Contact1/>}/>
           <Route path='/about' element={<AboutPage1/>}/>
           <Route path='/checkout' element={<Checkout/>}/>
+          <Route path='/faqs' element={<FaqsComponent/>}/>
         </Routes>
         <MiniHeader/>
         <PageProgress/>
