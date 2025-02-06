@@ -51,7 +51,7 @@
 }
 
 .swiper-slide {
-  text-align: center;
+  /* text-align: center; */
   font-size: 18px;
   background: #fff;
 
@@ -62,12 +62,12 @@
   border-radius: 10px;
 }
 
-.swiper-slide img {
+/* .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 /* Loader.css */
 .loader-container {
   position: fixed;
